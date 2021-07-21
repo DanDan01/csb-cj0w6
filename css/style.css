@@ -57,6 +57,13 @@ main {
   font-weight: 800;
 }
 
+.location a {
+  color: white;
+}
+.location a:hover {
+  color: red;
+}
+
 .item-food,
 .item-price {
   font-size: 1.2rem;
@@ -130,7 +137,6 @@ main {
   justify-content: center;
   font-style: italic;
   font-size: 0.8rem;
-  padding: 1rem;
 }
 
 @media (max-width: 892px) {
