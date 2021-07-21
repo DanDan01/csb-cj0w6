@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+:root {
+  --h-font: "Open Sans", sans-serif;
+  --p-font: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--h-font);
+  color: #e8e8e8;
+  font-weight: 400;
+}
+
+p,
+blockquote,
+span,
+.item-food,
+.item-price,
+.item-additional {
+  font-family: var(--p-font);
+  color: #e8e8e8;
+}
+
+main {
+  /* background: url('../assets/images/backround.png'); */
+  background: url(https://i.ibb.co/RNgKjzR/backround.png);
+  background-size: cover;
+}
+
+.site-logo img {
+  width: 30%;
+}
+
+.location h3 {
+  text-align: center;
+}
+
+.location span,
+.hours span {
+  font-weight: 800;
+}
+
+.item-food,
+.item-price {
+  font-size: 1.2rem;
+}
+
+.item-additional {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  margin-top: 0;
+  color: #ff7676;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hours {
+  text-align: center;
+}
+
+.site-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0 2rem;
+  border-radius: 0.8rem;
+}
+.menu-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.item h2 {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid white;
+}
+
+.disclaimer h5,
+.menu-included-items h5 {
+  text-align: center;
+}
+
+.disclaimer span,
+.menu-included-items span {
+  font-style: italic;
+}
+
+.copyright {
+  background-color: #383535;
+}
+
+.copyright span {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+
+@media (max-width: 892px) {
+  .site-logo img {
+    width: 80%;
+    border-radius: 0.4rem;
+  }
+  .menu-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+}
